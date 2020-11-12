@@ -1,0 +1,296 @@
+/* Fonts: */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+h1, h3, a {
+  background-image: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header: */
+.main-header {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 0.11px;
+  background: url(/Assets/Images/bg1.png);
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 119.68px;
+  top: 21.23px;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  left: 22.3%;
+  right: 17.1%;
+  top: 4.47%;
+  bottom: 84.9%;
+  background-image: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 39.21px;
+}
+
+.menu > p {
+  padding-right: 32.04px;
+  padding-left: 32.04px;
+}
+
+.language {
+  position: relative;
+  left: 3.4%;
+  cursor: pointer;
+}
+
+/* Icons: */
+.header-icons {
+  display: flex;
+  position: relative;
+  justify-content: right;
+  flex-direction: row;
+  right: 150px;
+  margin-top: 39.21px;
+  background-image: none;
+}
+
+.xbox-icon {
+  margin-right: 17px;
+  width: 30.13px;
+  height: 30px;
+  background-image: none;
+}
+
+.steam-icon {
+  width: 30.13px;
+  height: 30px;
+  background-image: none;
+}
+
+/* Main Screen: */
+.main-screen {
+  background: url(/Assets/Images/bg1.png);
+  display: flex;
+  background-repeat: no-repeat;
+  height: 900px;
+  position: initial;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: none;
+}
+
+.title {
+  font-size: 80px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+}
+
+.purchase-wrapper {
+  background-image: none;
+  margin-top: 28px;
+}
+
+.scroll-down-bttn-wrapper {
+  background-image: none;
+}
+
+.scroll-down-bttn {
+  background-image: none;
+  position: relative;
+  top: 290px;
+}
+
+/*About section:*/
+.about-section {
+  background: url(/Assets/Images/bg2.jpg);
+  height: 1000px;
+  background-size: cover;
+}
+
+.about-title-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 256px;
+  padding-left: 120px;
+}
+
+.about-title-h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.about-title-h1 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.hr-line {
+  position: absolute;
+  width: 711.5px;
+  height: 2.99px;
+  left: 120.84px;
+  top: 456.21px;
+  z-index: 10;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.about-game-text {
+  position: absolute;
+  left: 21.32%;
+  right: 53.34%;
+  top: 550px;
+  bottom: 27.91%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.sub-text {
+  text-decoration: underline;
+  color: orange;
+}
+
+.screenshot1 {
+  position: relative;
+  width: 502.76px;
+  height: 610.52px;
+  left: 700.12px;
+  bottom: 290px;
+}
+
+/* Features: */
+.features-section {
+  background: url(/Assets/Images/bg3.png);
+  background-repeat: no-repeat;
+  height: 870px;
+  display: flex;
+  justify-content: right;
+}
+
+.features-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  justify-content: right;
+  padding-right: 236px;
+  padding-top: 295px;
+}
+
+.feature-title-h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.feature-title-h1 {
+  font-size: 80px;
+}
+
+.feature1 {
+  color: #FFB548;
+  font-size: 35px;
+  padding-top: 70px;
+  position: relative;
+  left: 50px;
+}
+
+.feature2 {
+  color: #FFB548;
+  font-size: 35px;
+  padding-top: 70px;
+  position: relative;
+  left: 50px;
+  top: -27px;
+}
+
+.feature3 {
+  color: #FFB548;
+  font-size: 35px;
+  padding-top: 70px;
+  position: relative;
+  left: 50px;
+  bottom: 36.7px;
+}
+
+.feature1-subtitle {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  left: 50px;
+}
+
+/* Requirements: */
+.requirements-section {
+  display: flex;
+  height: 1000px;
+  justify-content: center;
+  background: url(/Assets/Images/bg4.png);
+  background-repeat: no-repeat;
+}
+
+.requirements-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  left: 100px;
+  position: relative;
+}
+
+.h3 {
+  color: #fff;
+  font-size: 24px;
+  left: 50px;
+  position: relative;
+}
+
+.h1 {
+  color: #fff;
+  font-size: 80px;
+  right: 100px;
+  position: relative;
+}
+
+.features-title {
+  font-family: "Bebas Neue", cursive;
+  margin-top: 50px;
+}
