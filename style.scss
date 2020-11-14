@@ -11,6 +11,7 @@
     $bgImg2: url(/Assets/Images/bg2.jpg);
     $bgImg3: url(/Assets/Images/bg3.png);
     $bgImg4: url(/Assets/Images/bg4.png);
+    $bgImg5: url(/Assets/Images/bg5.png);
 
     $colorRed: red;
 h1,h3,a {
@@ -225,12 +226,24 @@ h1,h3,a {
     justify-content: right;
     
 }
+
+.feat-gradient {
+    position: absolute;
+    background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%);
+    
+
+    width: 100%;
+    height: 1000px;
+}
+
 .features-title-wrapper {
     display: flex;
     flex-direction: column;
     font-family: $bebasNeueFont;
     color: #fff;
     justify-content: right;
+
+    z-index: 1;
 
     padding-right: 236px;
     padding-top: 295px;
@@ -278,24 +291,331 @@ h1,h3,a {
     background-repeat: no-repeat;
 }
 
+.res-gradient {
+    background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%);
+    
+    
+    position: absolute;
+    
+
+    width: 100%;
+    height: 1000px;
+}
+
 .requirements-title-wrapper {
     display: flex;
     flex-direction: column;
-    left: 100px;
+    
+    left: 410px;
     position: relative;
+
+    margin-top: 70px;
     
 }.h3 {
     color: #fff;
     font-size: 24px;
     left: 50px;
     position: relative;
+
+    
 }.h1 {
     color: #fff;
     font-size: 80px;
     right: 100px;
     position: relative;
+
+    bottom: 50px;
 }
 .features-title {
     font-family: $bebasNeueFont;
+    margin-top: 50px;
+}
+
+
+// ! Disquete Nesting ! //
+
+.disquete-container {
+    // border: 1px red solid;
+    position: relative;
+    height: 300px;
+    width: max-content;
+
+    top: 409px;
+    right: 626px;
+    
+}
+
+.os {
+    font-family: $openSansFont;
+    font-size: 18px;
+    color: #fff;
+
+    position: relative;
+    bottom: 386px;
+    left: 20px;
+}.processor {
+    color: #fff;
+    font-size: 18px;
+    font-family: $openSansFont;
+
+    position: relative;
+    bottom: 468px;
+    left: 292px;
+}.ram {
+    color: #fff;
+    font-size: 18px;
+    font-family: $openSansFont;
+
+    position: relative;
+    bottom: 418px;
+    left: 19px;
+}.storage {
+    color: #fff;
+    font-size: 18px;
+    font-family: $openSansFont;
+
+    position: relative;
+    bottom: 474px;
+    left: 289px;
+}.graphics {
+    color: #fff;
+    font-size: 18px;
+    font-family: $openSansFont;
+
+    position: relative;
+    bottom: 407px;
+    left: 19px;
+}
+
+// ! Quotes Section ! //
+
+.quotes-section {
+    height: 1000px;
+    background: $bgImg5;
+    
+}
+
+.quotes-gradient {
+    background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
+
+    position: absolute;
+    
+
+    width: 100%;
+    height: 1000px;
+    z-index: 0;
+}
+
+.quotes-info {
+    top: 290px;
+    left: 121px;
+    width: max-content;
+    position: relative;
+}
+.quotes-info > h1 {
+    font-family: $bebasNeueFont;
+    color: #fff;
+    font-size: 80px;
+    z-index: 100;
+
+}.quotes-info > h3 {
+    color: #fff;
+    font-family: $bebasNeueFont;
+    font-size: 24px;
+}
+.quotes-paragraph {
+    font-family: $openSansFont;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+.quotes-container {
+    left: 850px;
+    position: relative;
+    z-index: 2;
+    bottom: 190px;
+
+    width: 0;
+}
+.quotes-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+.quote-template {
+    height: max-content;
+    width: max-content;
+    
+    margin-top: 20px;
+}.quote2 {
+    margin-left: -152px;
+    position: relative;
+}.quote3 {
+    margin-left: -30px;
+}
+.call-to-action-bttn {
+    margin-top: 37px;
+    z-index: 3;
+}
+
+
+// ! Newsletter ! //
+.newsletter-section {
+    height: 670px;
+    background-color: #000;
+}
+
+.skull-image {
+    height: 550px;
+    background: none;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+.skull-image-container {
+}
+
+.newsletter-info > h1  {
+    font-family: $bebasNeueFont;
+    color: #fff;
+    font-size: 80px;
+
+       
+    
+}.newsletter-info > h3 {
+    color: #fff;
+    font-family: $bebasNeueFont;
+    font-size: 24px;
+    
+}.newsletter-info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    left: 700px;
+    bottom: 38%;
+
+    width: max-content;
+
+}
+.input-field {
+    border-radius: 5px;
+    height: 60px;
+    width: 360px;
+    background-color: #212121;
+
+    display: flex;
+
+    margin-top: 50px;
+    
+}
+.input-p {
+    font-family: $openSansFont;
+    font-size: 14px;
+    padding-left: 15px;
+    color: #8a8a8a;
+    padding-top: 4px;
+}
+.newsletter-paragraph {
+    font-family: $openSansFont;
+    color: #fff;
+    margin-top: 40px;
+}.newsletter-input {
+    background: none;
+    border: none;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    color: #FFB548;
+    
+}
+
+.subscribe-button {
+    margin-left: 137px;
+}
+.subscribe-gradient {
+    background: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
+    height: 500px;
+    width: 352px;
+
+    position: relative;
+
+    right: 700px;
+   
+    
+}
+
+
+
+// ! Footer
+
+.footer-container {
+    height: 280px;
+    background-color: #000;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.footer-logo {
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+    position: relative;
+
+    left: 40px;
+
+}.menu-wrapper  {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font-family: $openSansFont;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    
+}
+.menu-wrapper > p {
+    padding-right: 32.04px;
+    padding-left: 32.04px;
+    position: relative;
+    
+    bottom: 40px;
+}
+.social-wrapper {
+    display: flex;
+    justify-content: end;
+    position: relative;
+
+    bottom: 56px;
+    
+    
+}.social-content > img {
+    margin-right: 35px;
+    
+
+}
+
+.copyright-text {
+    color: rgb(60, 60, 60);
+    font-size: 14px;
+
+    font-family: $openSansFont;
+    
+    position: relative;
+    top: 44px;
+}
+.policy {
+    color: #fff;
+    font-family: $openSansFont;
+    font-size: 12px;
+    float: right;
+    text-transform: uppercase;
+
+    font-weight: 700;
+
     margin-top: 50px;
 }
